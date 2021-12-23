@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./picture/LOGO-1.png">
+  <link rel="stylesheet" href="main.css">
+  <title>코로나블루</title>
+  <style>body{background-color: #013DC4; width: 1920; height: 4200;}</style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo"><img src="./picture/LOGO.png" alt="logo"></a>
+      <ul>
+        <li><a href="javascript:()" onclick="showpopup();"><img src="./picture/버튼-구독.png" width="86" height="34" alt="4"></a></li>
+        <li><a href="3.html"><img src="./picture/버튼-극복방법.png" width="109" height="34" alt="3"></a></li>
+        <li><a href="2.html"><img src="./picture/버튼-코로나블루란물음표.png" alt="2" width="161" height="33"></a></li>
+      </ul>
+    </nav>
+  </header>
+    <div>
+      <div class="mainlogo">
+        <img src="./picture/메인-로고.png" width="1331" height="708" alt="mainlogo">
+     </div>
+      <div class="자가진단테스트">
+         <div id="t1"><strong>요즘 너무 무기력해..</strong></div>
+         <div id="t2"><strong>혹시 나도...</strong></div>
+         <div id="t3"><strong>코로나 블루?!</strong></div>
+         <div id="t4"><strong>자가진단테스트.</strong></div>
+      </div>
+
+      <div class="구름">
+         <div id="t5"><strong>현재 자신의 상태에 맞게<br>카운팅 해주세요.</strong></div>
+      </div>
+
+      <div class="문제">
+         <img src="./picture/메인-문제.png" width="493" height="698" alt="문제">
+      </div>
+
+      <div class="스프링1">
+         <img src="./picture/메인-스프링.png" width="248" height="88" alt="스프링1">
+      </div>
+
+      <div class="결과">
+        <div id="t6"><strong>0 ~ 1</strong></div>
+        <div id="t7"><strong>코로나 블루 그린!<br>건강한 마음!<br>건강한 체력!</strong></div>
+        <div id="t8"><strong>2 ~ 3</strong></div>
+        <div id="t9"><strong>코로나 블루 주의!<br>이럴 때 일수록<br>더욱 긍정적이게<br>활동해 보아요!</strong></div>
+        <div id="t10"><strong>4 ~ 6</strong></div>
+        <div id="t11"><strong>코로나 블루 경보!<br>위험한 수준이에요.<br>같이 극복할 방법을<br>알아볼까요?</strong></div>
+
+      </div>
+
+      <div class="스프링2">
+         <img src="./picture/메인-스프링.png" width="248" height="88" alt="스프링2">
+      </div>
+
+  <div id="text1"> Designed by Chang Kyun Lim, Web Media Design Class, 2021</div>
+ <div class="popup" id="popup">
+    <div class="blanket"></div>
+    <div class="content">
+      <h2>뉴스레터를 구독해보세요.</h2>
+      <form action="">
+        <div class="row">
+          <div class="item">
+            <input type="text" placeholder="NAME">
+          </div>  
+          <div class="item">  
+            <input type="text" placeholder="E-MAIL">
+          </div>
+        </div>
+        <button class="signup" onclick="hidePopup();">구독하기</button>
+        <button class="close" onclick="hidePopup();"></button>  
+      </form>
+   
+    </div>
+  </div>
+  
+  <script src="./script.js" type="text/javascript"></script>
+</body>
+</html>

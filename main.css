@@ -1,0 +1,610 @@
+header {
+  background-color:#ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, .1);
+  z-index: 1;
+}
+.logo img{
+  width: 100px;
+  position: absolute; 
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  float: left;
+}
+nav{
+  width: 1280px;
+  height: 100px;
+  background-color: #ffffff;
+}
+nav ul{
+  padding: 0;
+  margin: 0 60px 0 0;
+
+}
+nav ul li{
+   padding: 0;
+   margin: 0;
+   display: block;
+   float: right;
+
+}
+nav ul li a{
+   display: block;
+   height: 100%;
+   box-sizing: border-box;
+   text-transform: uppercase;
+   font-weight: 500;
+   font-size: 20px;
+   color: #464646;
+   text-decoration: none;
+   padding: 30px 25px;
+}
+#logo1 {
+  position: absolute;
+  top: 7px;
+  left: 320px;
+}
+#코로나블루란 {
+  position: absolute;
+  top: 18px;
+  left: 1133px;
+}
+#극복방법 {
+  position: absolute;
+  top: 18px;
+  left: 1344px;
+}
+#구독 {
+  position: absolute;
+  top: 18px;
+  left: 1503px;
+}
+.mainlogo {
+  position: relative;
+  margin-top: 110pxs;
+  background-color: #E2D3F3;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.자가진단테스트{
+  position: relative;
+  margin-top: 237px;
+  text-align: center;
+  background-image: url(./picture/메인-자가진단테스트.png); 
+  max-width: 491px; 
+  height: 222px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+}
+.구름{
+  position: relative;
+  margin-top: 219px;
+  text-align: center;
+  background-image: url(./picture/메인-구름.png); 
+  max-width: 321px; 
+  height: 145px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+}
+.문제{
+  position: relative;
+  margin-top: 191px;
+  text-align: center;
+}
+.스프링1{
+  position: relative;
+  margin-top: 221px;
+  text-align: center;
+}
+.결과{
+  position: relative;
+  margin-top: 221px;
+  text-align: center;
+  background-image: url(./picture/메인-결과.png); 
+  max-width: 456px; 
+  height: 727px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+}
+.스프링2{
+  position: relative;
+  margin-top: 147px;
+  text-align: center;
+}
+.배경2{
+  position: relative;
+  margin-top: 0px;
+  text-align: center;
+}
+.란{
+  position: relative;
+  margin: auto;
+  background-image: url(./picture/2-배경.png); width: 775px; height: 2501px;
+  background-size: cover;
+  text-align: left;
+}
+.란란 {
+  position: relative;
+  margin-right: auto;
+  background-image: url(./picture/2-코로나블루란.png); width: 318px; height: 206px;
+  background-size: 100%;
+  text-align: left;
+  
+}
+.란란2 {
+  position: relative;
+  margin-left: auto;
+  margin-top: 84px;
+  background-image: url(./picture/2-코로나블루란2.png); width: 493px; height: 226px;
+  background-size: 100%;
+  text-align: right
+}
+.원인{
+  position: relative;
+  margin-right: auto;
+  margin-top: 372px;
+  background-image: url(./picture/2-원인.png); width: 307px; height: 142px;
+  background-size: 100%;
+  text-align: left;
+}
+.원인2{
+  position: relative;
+  margin-left: auto;
+  margin-top: 1px;
+  background-image: url(./picture/2-원인2.png); width: 415px; height: 302px;
+  background-size: 100%;
+  text-align: right
+}
+.증상{
+  position: relative;
+  margin-right: auto;
+  margin-top: 201px;
+  background-image: url(./picture/2-증상.png); width: 309px; height: 142px;
+  background-size: 100%;
+  text-align: left;
+}
+.증상2{
+  position: relative;
+  margin-top: -20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./picture/2-증상2.png); width: 549px; height: 596px;
+  background-size: 100%;
+  
+}
+.제목3{
+  position: relative;
+  margin-top: 10px;
+  text-align: center;
+  background-image: url(./picture/3-제목png.png); width: 626px; height: 313px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+}
+.심리적3{
+  position: relative;
+  margin-top: 113px;
+  text-align: center;
+  background-image: url(./picture/심리적.png); width: 631px; height: 627px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+}
+.신체적3{
+  position: relative;
+  margin-top: 140px;
+  text-align: center;
+  background-image: url(./picture/finalpuzzle.png); width: 657px; height: 654px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+}
+#text1 {
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+#text2 {
+  position: relative;
+  text-align: center;
+  color: #013DC4;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -65px;
+
+}
+#text3 {
+  position: relative;
+  text-align: center;
+  color:#ED6A66;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+#textbox {
+  position: relative;
+  fill: #E0E0E0;
+  top: 717px;
+  left: 1000px;
+}
+#textboxmain {
+  position: absolute;
+  fill: #E2D3F3;
+  top: 0px;
+  left: 0px;
+}
+#t1 {
+  position: relative;
+  color: #013dc4;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 300px 290px 0px 0px;
+  padding-top: 10px;
+}
+#t2 {
+  position: relative;
+  color: #013dc4;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -20px -265px 0px 0px;
+  padding-top: 9px;
+}
+#t3 {
+  position: relative;
+  color: #013dc4;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 21px -350px 0px 0px;
+  padding-top: 10px;
+}
+#t4 {
+  position: relative;
+  color: #ffffff;
+  font-size: 35px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px -8px 0px 0px;
+  padding-top: 9px;
+}
+#t5 {
+  position: relative;
+  color: #e2d3f3;
+  font-size: 25px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 0px 0px 0px;
+  padding-top: 45px;
+}
+#t6 {
+  position: relative;
+  color: #5BF7F4;
+  font-size: 50px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px -203px 0px 0px;
+  padding-top: 96px;
+}
+#t7 {
+  position: relative;
+  color: #5BF7F4;
+  font-size: 28px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px -250px 0px 0px;
+  padding-top: 55px;
+}
+#t8 {
+  position: relative;
+  color: #E2D3F3;
+  font-size: 50px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -110px 188px 0px 0px;
+  padding-top: 55px;
+}
+#t9 {
+  position: relative;
+  color: #E2D3F3;
+  font-size: 28px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -10px 231px 0px 0px;
+  padding-top: 55px;
+}
+#t10 {
+  position: relative;
+  color: #ED6A66;
+  font-size: 50px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -106px -180px 0px 0px;
+  padding-top: 71px;
+}
+#t11 {
+  position: relative;
+  color: #ED6A66;
+  font-size: 28px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -10px -188px 0px 0px;
+  padding-top: 40px;
+}
+#t12 {
+  position: relative;
+  color: #ffffff;
+  font-size: 40px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 0px 0px 23px;
+  padding-top: 113px;
+}
+#t13 {
+  position: relative;
+  color: #013dc4;
+  font-size: 13px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 15px 0px 0px;
+  padding-top: 33px;
+  text-align: right;
+}
+#t14 {
+  position: relative;
+  color: #ffffff;
+  font-size: 40px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 32px 0px 0px;
+  padding-top: 49px;
+  text-align: right;
+}
+#t15 {
+  position: relative;
+  color: #ED6A66;
+  font-size: 14px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 15px 0px 0px;
+  padding-top: 125px;
+  text-align: right;
+}
+#t16 {
+  position: relative;
+  color: #ffffff;
+  font-size: 40px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 32px 0px 0px;
+  padding-top: 51px;
+  text-align: right;
+}
+#t17 {
+  position: relative;
+  color: #013dc4;
+  font-size: 14px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 4px 0px 0px;
+  padding-top: 310px;
+  text-align: center;
+}
+#t18 {
+  position: relative;
+  color: #013dc4;
+  font-size: 27px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 4px 0px 0px;
+  padding-top: 120px;
+  text-align: center;
+}
+#t19 {
+  position: relative;
+  color: #ED6A66;
+  font-size: 33px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 247px 0px 0px;
+  padding-top: 52px;
+  text-align: center;
+}
+#t20 {
+  position: relative;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px -65px 0px 0px;
+  padding-top: 85px;
+  text-align: center;
+}
+#t21 {
+  position: relative;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px -65px 0px 0px;
+  padding-top: 50px;
+  text-align: center;
+}
+#t22 {
+  position: relative;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px -65px 0px 0px;
+  padding-top: 50px;
+  text-align: center;
+}
+#t23 {
+  position: relative;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px -65px 0px 0px;
+  padding-top: 50px;
+  text-align: center;
+}
+#t24 {
+  position: relative;
+  color: #013dc4;
+  font-size: 33px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 247px 0px 0px;
+  padding-top: 92px;
+  text-align: center;
+}
+#t25 {
+  position: relative;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px -65px 0px 0px;
+  padding-top: 80px;
+  text-align: center;
+}
+#t26 {
+  position: relative;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px -65px 0px 0px;
+  padding-top: 50px;
+  text-align: center;
+}
+#t27 {
+  position: relative;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px -65px 0px 0px;
+  padding-top: 50px;
+  text-align: center;
+}
+#t28 {
+  position: relative;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px -65px 0px 0px;
+  padding-top: 50px;
+  text-align: center;
+}
+/* begin popup */
+
+.popup{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 2;
+}
+.popup.show{
+	display: block;
+}
+.popup .blanket{
+	background-color: rgba(0,0,0,.7);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+.content{
+	box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+	padding: 30px 40px;
+	width: 621px;
+	height: 454px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -250px;
+	margin-left: -380px;
+}
+.popup h2{
+	margin: 30px 0 20px;
+}
+.popup #signup {
+	margin-top: 40px;
+}
+.signup {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  background: #B280E8;
+  border: 3px solid #9d6fcf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.close {
+	width: 40px;
+	height: 40px;
+  background: url(./picture/close_button.png) no-repeat center center;
+  background-color: black;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, .1);
+	background-size: 50%;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.popup .row{
+  display: row;
+  justify-content: center;
+  margin-top: 50px;	
+}
+.popup .item{
+	width: 475px;
+  font-size: 59px;
+  position: relative;
+  left: 36px;
+  margin-top: 10px;
+}
+.popup .item input[type='text']{
+	display: block;
+	font-size: 20px;
+	font-weight: medium;
+	border: 2px solid #575757;
+	height: 65px;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 20px 20px;
+}
